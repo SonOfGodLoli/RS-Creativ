@@ -2,7 +2,7 @@
 /* CSS Document */
 
 header {
-	background-color: #8b1813;
+	background-color: #b84c42;
 	border-bottom: 5px solid white;
 
 }
@@ -12,7 +12,23 @@ body {
 	padding-top: 0px;
 }
 
+@media (max-width: 768px) {
+	.cabeza-hijo {
+	  flex-direction: column;
+	  align-items: center;
+	}
+}
+
 /**/
+
+.Cabecera {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	max-width: 100%;
+	margin: 0 auto;
+}	
 
 .Subtitulos {
 	text-align: center;
@@ -23,17 +39,37 @@ body {
 }
 /**/
 
-.cabeza-hijo img {
-	width: 7vh;
-	padding: 20px 0px;
+.cabeza-hijo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
 }
 
+.cabeza-hijo img {
+	width: 10%;
+	padding: 3%;
+}
 
-	
+.cabeza-hijo a {
+    display: flex;
+    align-items:center;
+	justify-content: space-between;
+    text-decoration: none;
+}
+
+nav {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+
 ul {
 	padding: 10px 0px 10px 0px;
 	margin: 0px;
 	text-align: center;
+	display: flex;
+
 	
 }
 
@@ -41,13 +77,17 @@ li {
 	list-style: none;
 	text-decoration: none;
 	margin: 0px;
-	padding: 0px 50px 0px 50px;
+	padding: 0px 30px;
 	font-size: 15px;
 	text-transform: uppercase;
-	font-family: 'Montserrat';
+	font-family: Montserrat;
 	font-weight: bold;
 	color: White;
-	display: inline-block;
+	display:inline-block;
+}
+
+.header-list{
+	white-space: nowrap;
 }
 
 a {
@@ -55,42 +95,27 @@ a {
 	color: white;
 }
 
-/*section {
-	margin: 0px;
-	padding: 0px;
-}*/
-
-#foto {
-	width: 100%;
-	margin-bottom: 0px;
-	
-}
-
-#whats {
-	width: 60px;
-	height: 60px;
-	background: #1DD66C;
-	text-align: center;
-	position: fixed;
-	right: 10px;
-	top: 520px;
-	z-index: 1;
-	border-radius: 100px;
-}
-
-i {
-	font-size: 35px;
-	margin: 10px 0px 0px 0px;
-}
-
-#www i {
-	font-size: 40px;
-	padding: 0px 0px 0px 0px;
-}
-
 /**/
 
+.Porta {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:center;
+	background-color: #8b1813;
+	height: 100vh;
+	width: 100%;
+}
 
+h3 {
+	color: white;
+	font-family: "Montserrat";
+	font-size: 700%;
+}
+
+.compu {
+	width: 70%;
+}
 
 /**/
 
