@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>El Chimbalito - Delivery</title>
+<link href="estilos-Delivery.css" rel="stylesheet">
+<link rel="icon" href="imagenes/favicon.png" type="image/svg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div class="cabeza">
+			<div class="cabeza-hijo"><img class="logo" src="imagenes/chimbalito Logo.png" alt="logo">
+			</div>
+		</div>
+	</header>
+	<div class="menu-S">
+		<nav>
+			<ul>
+				<a href="Index.html"><li>Inicio</li></a>
+				<a href="index-Nosotros.html"><li>Nosotros</li></a>
+				<a href="index-Reservas.html"><li>Reservas</li></a>
+				<a href="index-carta.html"><li>Carta</li></a>
+				<a href="index-Delivery.css"><li>Delivery</li></a>
+				<a href="index-Restaurantes.html"><li>Restaurantes</li></a>
+				</ul>
+			</nav>
+	</div>
+	
+	<section>
+		
+		
+  <form id="myForm">
+	  
+	  <h1>Rellena el formulario para realizar el pedido</h1>
+	  
+    <label class="forma1" for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label class="forma1" for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required>
+	  
+    <label class="forma2" for="dni">DNI:</label>
+    <input type="text" id="dni" name="dni" required>
+
+    <label class="forma2" for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required>
+	 
+	<label class="forma3" for="direccion">Dirección:</label>
+    <input type="text" id="direccion" name="direccion" required>
+
+	<label class="forma4" for="opciones">Combo:</label>
+    <select id="opciones" name="opciones">
+      <option value="opcion1">Mix 1</option>
+      <option value="opcion2">Mix 2</option>
+      <option value="opcion3">Mix 3</option>
+      <option value="opcion4">Mix 4</option>
+      <option value="opcion5">Mix 5</option>
+      <option value="opcion6">Mix 6</option>
+    </select>
+
+    <label class="forma5" for="medioPago">Medio de Pago:</label>
+    <select id="medioPago" name="medioPago" onchange="mostrarQR()">
+      <option value="tarjeta">Tarjeta de Crédito</option>
+      <option value="transferencia">Transferencia Bancaria</option>
+      <option value="paypal">PayPal</option>
+    </select>
+
+    <!-- <img id="qrCode" src="" alt="Código QR">-->
+
+    <button type="button" onclick="enviarFormulario()">Hacer pedido</button>
+  </form>
+	</section>
+	<!-- 
+	<div class="iconos">
+       <a href="https://www.facebook.com/PUMAPeru" target="_blank"><i class="fab fa-facebook-square"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZq427EjGqUbV6pZIjEKkgg" target="_blank"><i class="fab fa-youtube-square"></i></a> 
+        <a href="https://twitter.com/PUMA" target="_blank"><i class="fab fa-twitter-square"></i></a> 
+        <a href="https://www.instagram.com/puma/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+		<a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=service@puma.com" target="_blank"><i class="fa-solid fa-square-envelope"></i></a>
+    </div>
+	<!-- -->
+	
+	<div id="whats">
+		<a id="www" href="http:www.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+	</div>
+	
+	<script src="javascript.js"></script>
+	<script src="https://kit.fontawesome.com/1d8df1b252.js" crossorigin="anonymous"></script>
+	<footer>
+		<div class="foot">
+			<img class="imagen-2" src="imagenes/chimbalito Logo.png" alt="imagende footer"><br>
+			<span></span>
+			<p class="footer1">Empresa<br><span class="letras">Nuestra Historia<br>Contacto de Empresas<br>Proveedores</span></p>
+			<p class="footer1">Atencion al cliente<br><span class="letras">Preguntas Frecuentes<br>Políticas de delivery<br>Libro de Reclamaciones</span></p>
+			<p class="footer1">Contactos<br><span class="letras">12pm a 10pm<br>+51 927 500 752<br>Eduardo Dibos mz t lote 7 San juan de lurigancho</span></p>
+		</div>
+	</footer>
+	<script src="nosotros.js"></script>
+	</body>
+	
+</html>
