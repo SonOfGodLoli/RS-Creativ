@@ -33,8 +33,23 @@ body {
     font-size: 1.5rem; /* Define tamaño en rem para mejorar escalabilidad */
   }
 
-  h3 {
-    font-size: 1rem; /* Ideal para portafolio */
+  /* Reduce el alto de la sección portfolio */
+  .Porta {
+    height: auto;           /* Deja que se adapte al contenido */
+    padding: 2rem 1rem;     /* Espaciado cómodo arriba y abajo */
+  }
+
+  /* Ajusta el título PORTAFOLIO */
+  .Porta h3 {
+    font-size: 2rem;        /* Tamaño equilibrado: ni muy grande ni pequeño */
+    margin-bottom: 1rem;
+  }
+
+  /* Ajusta la imagen dentro de portafolio */
+  .compu {
+    width: 80%;             /* Ocupa hasta el 80% del ancho del contenedor */
+    max-width: 300px;       /* No crece más de 300px */
+    height: auto;           /* Mantiene proporción */
   }
 
   .header-list {
