@@ -34,12 +34,14 @@ body {
   }
 
   h3 {
-    font-size: 1.25rem; /* Ideal para portafolio */
+    font-size: 1rem; /* Ideal para portafolio */
   }
 
   .header-list {
-    font-size: 0.9rem; /* Menú menos gigante */
-}
+    font-size: 0.9rem;
+	display: block;
+	text-decoration: none;
+	}
 
   .menu {
     flex-direction: column;
@@ -50,12 +52,6 @@ body {
 
   .menu li {
     width: 100%;
-  }
-
-  .header-list {
-    display: block;
-    padding: 0.75rem;
-    text-decoration: none;
   }
 
   .logo {
@@ -176,7 +172,7 @@ a {
 h3 {
 	color: white;
 	font-family: "Montserrat";
-	font-size: 700%;
+	font-size: 500%;
 }
 
 .compu {
