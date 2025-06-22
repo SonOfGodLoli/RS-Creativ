@@ -41,9 +41,39 @@ body {
     padding: 0.75rem;
     text-decoration: none;
   }
+
+  .Subtitulos {
+    font-size: 180%;
+  }
+
+  h3 {
+    font-size: 300%;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .foot {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagen-2 {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  .footer1 {
+    margin: 10px 0;
+  }
+
 }
-
-
 
 /**/
 
