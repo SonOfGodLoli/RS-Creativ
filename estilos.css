@@ -22,12 +22,13 @@ body {
 /**/
 
 .Cabecera {
-	display: flex;
+	display:block;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 20px;
+	padding: 0px;
 	max-width: 100%;
-	margin: 0 auto;
+	margin: 0;
+	width: 100%;
 }	
 
 .Subtitulos {
@@ -39,22 +40,21 @@ body {
 }
 /**/
 
-.cabeza-hijo {
+/*.cabeza-hijo {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
 }
-
-.cabeza-hijo img {
-	width: 10%;
-	padding: 3%;
+*/
+.logo {
+	width: 30%;
 }
 
 .cabeza-hijo a {
     display: flex;
     align-items:center;
-	justify-content: space-between;
+	justify-content:space-between;
     text-decoration: none;
 }
 
@@ -66,9 +66,10 @@ nav {
 
 ul {
 	padding: 10px 0px 10px 0px;
-	margin: 0px;
+	margin: auto;
 	text-align: center;
 	display: flex;
+	align-items: center;
 
 	
 }
@@ -107,6 +108,7 @@ a {
 	width: 100%;
 }
 
+
 h3 {
 	color: white;
 	font-family: "Montserrat";
@@ -115,8 +117,13 @@ h3 {
 
 .compu {
 	width: 50%;
+	max-width: max-content;
 }
 
+.compu:hover {
+	opacity: 100%;
+	width: 51%;	
+}
 /**/
 
 footer {
@@ -124,25 +131,24 @@ footer {
 	text-align: center;
 	align-items:center;
 	display:flex;
-	justify-content:center;
-	padding: 0px;
+	justify-content:space-between;
+	padding: 20px;
 }
 
 .foot {
 	width: 100%;
 	text-align: left;
 	display:inline-flex;
-	flex-direction: row;
+	flex-direction:row;
 	align-items:center;
 	justify-content:space-between;
-	padding: 20px;
+	padding: 0px;
 }
 
 
 .imagen-2 {
 	width: 10%;
-	margin: 20px 0px 20px 40px;
-	padding: 0px;
+	margin: 0px;
 }
 
 .footer1 {
@@ -150,7 +156,7 @@ footer {
 	color: #8b1813;
 	font-weight: bold;
 	padding: 0px;
-	margin: 0px 20px 0px 20px;
+	margin: 0px 20px;
 	font-family: 'Montserrat', sans-serif;
 }
 
