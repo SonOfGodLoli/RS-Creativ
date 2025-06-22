@@ -12,12 +12,33 @@ body {
 	padding-top: 0px;
 }
 
-@media (max-width: 1080px) {
-	.cabeza-hijo {
-	  flex-direction: row;
-	  align-items: center;
-	}
+
+@media (max-width: 768px) {
+  .cabecera-contenido {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 0.5rem;
+  }
+
+  .menu li {
+    width: 100%;
+  }
+
+  .header-list {
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+  }
 }
+
+
 
 /**/
 
