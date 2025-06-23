@@ -48,7 +48,7 @@ body {
   /* Ajusta la imagen dentro de portafolio */
   .compu {
     width: 80%;             /* Ocupa hasta el 80% del ancho del contenedor */
-    max-width: 300px;       /* No crece más de 300px */
+    max-width: 500px;       /* No crece más de 300px */
     height: auto;           /* Mantiene proporción */
   }
 
