@@ -1,11 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
 header {
 	background-color: #b84c42;
 	border-bottom: 5px solid white;
@@ -18,48 +13,40 @@ body {
 }
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .cabecera-contenido {
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
+  } */
 
   .Subtitulos {
-    font-size: 200%; /* Reduce de 400% a algo más legible */
+    font-size: 200%; 
   }
 
   h2 {
-    font-size: 1.5rem; /* Define tamaño en rem para mejorar escalabilidad */
+    font-size: 1.5rem; 
   }
 
-  /* Reduce el alto de la sección portfolio */
   .Porta {
-    height: auto;           /* Deja que se adapte al contenido */
-    padding: 2rem 1rem;     /* Espaciado cómodo arriba y abajo */
+    height: auto;           
+    padding: 2rem 1rem;     
   }
 
-  /* Ajusta el título PORTAFOLIO */
   .Porta h3 {
-    font-size: 4rem;        /* Tamaño equilibrado: ni muy grande ni pequeño */
+    font-size: 4rem;       
     margin-bottom: 1rem;
   }
 
   /* Ajusta la imagen dentro de portafolio */
   .compu {
-    width: 80%;             /* Ocupa hasta el 80% del ancho del contenedor */
-    max-width: 500px;       /* No crece más de 300px */
-    height: auto;           /* Mantiene proporción */
+    width: 80%;             
+    max-width: 500px;      
+    height: auto;           
   }
 
-  .header-list {
-    font-size: 0.9rem;
-	display: block;
-	text-decoration: none;
-	}
-
   .menu {
-    flex-direction: column;
+    flex-direction:row;
     align-items: center;
     padding: 0;
     gap: 0.5rem;
@@ -70,7 +57,7 @@ body {
   }
 
   .logo {
-    width: 120px;
+    width: 100%;
   }
 
   footer {
@@ -92,7 +79,6 @@ body {
     margin: 10px 0;
   }
 
-}
 
 /**/
 
@@ -115,15 +101,16 @@ body {
 }
 /**/
 
-/*.cabeza-hijo {
+.cabeza-hijo {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
 }
-*/
+
 .logo {
 	width: 30%;
+	padding: 10px;
 }
 
 .cabeza-hijo a {
