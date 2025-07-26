@@ -1,83 +1,78 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+	margin: 0;
+	padding-top: 0px;
+}
+
 header {
 	background-color: #b84c42;
 	border-bottom: 5px solid white;
 
 }
 
-body {
-	margin: 0;
-	padding-top: 0px;
-}
-
-
 /* @media (max-width: 768px) {
-  .cabecera-contenido {
+.cabecera-contenido {
     flex-direction: column;
     align-items: center;
     text-align: center;
   } */
 
-  .Subtitulos {
+.Subtitulos {
     font-size: 200%; 
-  }
+}
 
-  h2 {
+h2 {
     font-size: 1.5rem; 
-  }
+}
 
-  .Porta {
+.Porta {
     height: auto;           
     padding: 2rem 1rem;     
-  }
+}
 
-  .Porta h3 {
+.Porta h3 {
     font-size: 4rem;       
     margin-bottom: 1rem;
-  }
+}
 
   /* Ajusta la imagen dentro de portafolio */
-  .compu {
+.compu {
     width: 80%;             
     max-width: 500px;      
     height: auto;           
-  }
+}
 
-  .menu {
+.menu {
     flex-direction:row;
     align-items: center;
     padding: 0;
     gap: 0.5rem;
-  }
+}
 
-  .menu li {
+.menu li {
     width: 100%;
-  }
+}
 
-  .logo {
-    width: 100%;
-  }
-
-  footer {
+footer {
     flex-direction: column;
     text-align: center;
-  }
+}
 
-  .foot {
+.foot {
     flex-direction: column;
     align-items: center;
-  }
+}
 
-  .imagen-2 {
+.imagen-2 {
     width: 80px;
     margin-bottom: 10px;
-  }
+}
 
-  .footer1 {
+.footer1 {
     margin: 10px 0;
-  }
+}
 
 
 /**/
@@ -109,8 +104,8 @@ body {
 }
 
 .logo {
-	width: 30%;
-	padding: 10px;
+	width: 10%;
+	padding: 15px;
 }
 
 .cabeza-hijo a {
@@ -123,7 +118,7 @@ body {
 nav {
 	margin-left: auto;
 	display: flex;
-	align-items: center;
+	align-items:flex-end;
 }
 
 ul {
@@ -133,7 +128,6 @@ ul {
 	display: flex;
 	align-items: center;
 
-	
 }
 
 li {

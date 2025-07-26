@@ -19,16 +19,7 @@ body {
 	padding: 0 20px;
 	max-width: 1200px;
 	margin: 0 auto;
-}	
-
-.Subtitulos {
-	text-align: center;
-	color: #8b1813;
-	font-family: Montserrat;
-	font-weight: bolder;
-	font-size:400%;
 }
-/**/
 
 .cabeza-hijo {
 	display: flex;
@@ -72,8 +63,3 @@ a {
 	text-decoration: none;
 	color: white;
 }
-
-/*section {
-	margin: 0px;
-	padding: 0px;
-}*/

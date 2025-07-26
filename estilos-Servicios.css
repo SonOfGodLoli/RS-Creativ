@@ -2,63 +2,64 @@
 /* CSS Document */
 
 header {
-	background-color: red;
-	color: white;
+	background-color: #b84c42;
 	border-bottom: 5px solid white;
 }
 
 body {
 	margin: 0;
+	padding-top: 0px;
 }
+/**/
 
-.cabeza {
-	width: 90%;
-	margin: 0px auto;
+.Cabecera {
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.cabeza-hijo {
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
 }
 
 .cabeza-hijo img {
-	width: 200px;
-	padding: 20px;
+	width: 10%;
+	padding: 1%;
 }
 
+nav {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+	
 ul {
-	display: inline-flex;
-	padding: 0;
+	padding: 10px 0px 10px 0px;
+	margin: 0px;
+	text-align: center;
+	
 }
 
 li {
 	list-style: none;
 	text-decoration: none;
-	margin: 50px;
-	font-size: 25px;
-	text-transform: uppercase;
-	font-family: 'Kanit';
-	font-weight: bold;
-}
-
-nav {
-	width: 50%;
-	height: auto;
-}
-
-.cabeza-2 {
-	color: white;
-	background-color: #003BB9;
-	font-family: 'Kanit';
+	margin: 0px;
 	padding: 0px 30px;
-	font-weight: 700;
-	border-radius: 25px;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Montserrat;
+	color: White;
+	display: inline-block;
 }
 
 a {
 	text-decoration: none;
 	color: white;
-}
-
-section {
-	margin: 0px;
-	padding: 0px;
 }
