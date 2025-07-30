@@ -16,9 +16,10 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 20px;
-	max-width: 1200px;
-	margin: 0 auto;
+	padding: 0px;
+	max-width: 100%;
+	width: 100%;
+	margin: 0;
 }
 
 .cabeza-hijo {
@@ -28,9 +29,14 @@ body {
 	width: 100%;
 }
 
+/* .logo {
+	width: 10%;
+	padding: 5%;
+} */
+
 .cabeza-hijo img {
 	width: 10%;
-	padding: 1%;
+	padding: 5%;
 }
 
 nav {
@@ -40,10 +46,13 @@ nav {
 }
 	
 ul {
+	display: flex;
+	flex-direction: row;
 	padding: 10px 0px 10px 0px;
-	margin: 0px;
+	margin: auto;
 	text-align: center;
-	
+	align-items: center;
+
 }
 
 li {
@@ -51,7 +60,7 @@ li {
 	text-decoration: none;
 	margin: 0px;
 	padding: 0px 30px;
-	font-size: 15px;
+	font-size: 0.95rem;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-family: Montserrat;
