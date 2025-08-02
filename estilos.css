@@ -38,7 +38,8 @@ header {
 }
 
 .cabeza-hijo img {
-	width: 10vw;
+	width: 6vw;
+	height: auto;
 	padding: 2vh;
 }
 
@@ -57,7 +58,7 @@ li {
 	text-decoration: none;
 	margin: 0px;
 	padding: 0px 2vw;
-	font-size: 1.2vw;
+	font-size: 1.3vw;
 	text-transform: uppercase;
 	font-family: Montserrat;
 	font-weight: bold;
@@ -72,18 +73,62 @@ a {
 
 /**/
 /* Cuerpo*/
+.panel1 {
+	width: auto;
+	min-height: 50vh;
+	z-index: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url("imagenes/base 2 fondo.png");
+	box-sizing: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-content: center;
+}
 
-.Subtitulos {
+.panel1 h2 {
 	text-align: center;
 	color: #8b1813;
 	font-family: Montserrat;
 	font-weight: bolder;
-	font-size:400%;
+	font-size:4.5vh;
+}
+
+/* .panel1 img {
+	width: 100%;
+	height: auto;
+	z-index: -1;
+} */
+
+.introduccion{
+	text-align: center;
+	font-size: 2.5vh;
+	font-family: Montserrat;
+	color: #b84c42;
+	font-display: swap;
 }
 
 
-h2 {
-    font-size: 1.5rem; 
+.leer {
+	padding: 2vh 4vw;
+	background-color: #8b1813;
+	color: white;
+	border: none;
+	border-radius: 5%;
+	cursor: pointer;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 2.5vh;
+}
+.panel2 h2 {
+	text-align: center;
+	color: #8b1813;
+	font-family: Montserrat;
+	font-weight: bolder;
+	font-size:4.5vh;
 }
 
 .Porta {
