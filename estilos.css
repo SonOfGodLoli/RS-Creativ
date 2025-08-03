@@ -74,15 +74,12 @@ a {
 /**/
 /* Cuerpo*/
 .panel1 {
-	width: auto;
-	min-height: 50vh;
-	z-index: 0;
+	width: 100%;
+	min-height: 40vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 	background-image: url("imagenes/base 2 fondo.png");
-	box-sizing: border-box;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -90,13 +87,19 @@ a {
 }
 
 .panel1 h2 {
-	text-align: center;
 	color: #8b1813;
 	font-family: Montserrat;
 	font-weight: bolder;
-	font-size:4.5vh;
+	font-size:5vw;
+	margin: 4% 0%;
 }
 
+.panel1 p {
+	padding: 0 20%;
+	font-family: Montserrat;
+	font-size: 3vw;
+	text-align: justify;
+}
 /* .panel1 img {
 	width: 100%;
 	height: auto;
@@ -113,7 +116,8 @@ a {
 
 
 .leer {
-	padding: 2vh 4vw;
+	padding: 2vw 4vw;
+	margin: 3%;
 	background-color: #8b1813;
 	color: white;
 	border: none;
@@ -121,7 +125,7 @@ a {
 	cursor: pointer;
 	font-family: Montserrat;
 	font-weight: bold;
-	font-size: 2.5vh;
+	font-size: 2.5vw;
 }
 .panel2 h2 {
 	text-align: center;
@@ -143,8 +147,9 @@ a {
 
 
 h3 {
+	text-align: center;
 	color: white;
-	font-family: "Montserrat";
+	font-family: Montserrat;
 	font-size: 5vh;
 
 }
