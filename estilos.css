@@ -90,14 +90,14 @@ a {
 	color: #8b1813;
 	font-family: Montserrat;
 	font-weight: bolder;
-	font-size:5vw;
+	font-size:3vw;
 	margin: 4% 0%;
 }
 
 .panel1 p {
 	padding: 0 20%;
 	font-family: Montserrat;
-	font-size: 3vw;
+	font-size: 2vw;
 	text-align: justify;
 }
 /* .panel1 img {
@@ -116,7 +116,7 @@ a {
 
 
 .leer {
-	padding: 2vw 4vw;
+	padding: 1vw 2vw;
 	margin: 3%;
 	background-color: #8b1813;
 	color: white;
@@ -125,7 +125,7 @@ a {
 	cursor: pointer;
 	font-family: Montserrat;
 	font-weight: bold;
-	font-size: 2.5vw;
+	font-size: 1.8vw;
 }
 .panel2 h2 {
 	text-align: center;

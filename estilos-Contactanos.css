@@ -14,13 +14,13 @@ header {
 /**/
 
 .Cabecera {
-	display: flex;
+	display:flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0;
-	width: 100%;
+	padding: 0px;
 	margin: 0;
-}
+	width: 100%;
+}	
 
 .cabeza-hijo {
 	display: flex;
@@ -30,40 +30,79 @@ header {
 }
 
 .cabeza-hijo img {
-	width: 10%;
-	padding: 5%;
+	width: 6vw;
+	height: auto;
+	padding: 2vh;
 }
 
-nav {
-	margin-left: auto;
-	display: flex;
-	align-items: center;
-}
-	
+
 ul {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	padding: 10px 0px 10px 0px;
 	margin: auto;
 	text-align: center;
-	
+	align-items: center;
 }
 
 li {
 	list-style: none;
 	text-decoration: none;
 	margin: 0px;
-	padding: 0px 30px;
-	font-size: 0.95rem;
+	padding: 0px 2vw;
+	font-size: 1.3vw;
 	text-transform: uppercase;
-	font-weight: bold;
 	font-family: Montserrat;
+	font-weight: bold;
 	color: White;
-	display: inline-block;
+	display:inline-block;
 }
 
 a {
 	text-decoration: none;
 	color: white;
+}
+
+
+/* cuerpo */
+
+
+
+
+.formularioc {
+	margin: 2% 4%;
+	border: 1px solid black;
+	padding: 4% 2%;
+	text-align: center;
+	font-family: Montserrat;
+}
+
+.forms {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	width: 30%;
+	height: auto;
+	padding: 0.5% 0.5%;
+	border-radius: 1vh;
+	border: 1px solid #b84c42;
+
+}
+
+#respuesta1 {
+	text-align: center;
+	width: 5%;
+	height: auto;
+	padding: 1px;
+	margin: 0px;
+}
+
+#respuesta2 {
+	text-align: center;
+	width: 5%;
+	height: auto;
+	padding: 1px;
+	margin: 0px;
 }

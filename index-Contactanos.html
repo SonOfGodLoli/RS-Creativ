@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Chimbalito - Contáctanos</title>
+<title>RS Creativ - Contáctanos</title>
 <link href="estilos-Contactanos.css" rel="stylesheet">
 <link rel="icon" href="imagenes/logo para web 1.png" type="image/png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,16 +19,65 @@
 				<a href="index.html"><img class="logo" src="imagenes/en circulo logo.png" alt="logo"></a>
 				<nav>
 					<ul>
-						<a href="index.html"><li>INICIO</li></a>
-						<a href="index-QuienesSomos.html"><li>QUIENES SOMOS</li></a>
-						<a href="index-Servicios.html"><li>SERVICIOS</li></a>
-						<a href="index-Portafolio.html"><li>PORTAFOLIO</li></a>
-						<a href="index-Contactanos.html"><li>CONTACTANOS</li></a>
+						<li><a href="index.html">INICIO</a></li>
+						<li><a href="index-QuienesSomos.html">QUIENES SOMOS</a></li>
+						<li><a href="index-Servicios.html">SERVICIOS</a></li>
+						<li><a href="index-Portafolio.html">PORTAFOLIO</a></li>
+						<li><a href="index-Contactanos.html">CONTACTANOS</a></li>
 					</ul>
 				</nav>
 			</div>
 		</div>
 	
 	</header>
+
+
+	<section>
+
+		<div class="formularioc">
+
+			<form class="Forms" action="/procesar-formulario" method="post">
+
+				<label for="nombre">Nombre Completo: </label><br><br>
+        		<input type="text" id="nombre" name="nombre" required placeholder="Ingrese su nombre"><br><br><br>
+
+				<label for="email">Correo Electronico: </label><br><br>
+        		<input type="email" id="email" name="email" required placeholder="micorreo@gmail.com"><br><br><br>
+
+				<label for="telefono">Telefono: </label><br><br>
+        		<input type="tel" id="telefono" name="telefopno" required placeholder="+51 999 999 999"><br><br><br>
+
+				<label for="nombre">Pais: </label><br><br>
+        		<input type="text" id="Pais" name="Pais" required placeholder="Ingrese su País de origen"><br><br><br>
+
+				<label for="nombre">Nombre Completo: </label><br><br>
+        		<input type="text" id="nombre" name="nombre" required placeholder="Ingrese su nombre"><br><br><br>
+
+				<label>Es una Empresa o Persona Natural:</label><br><br><br>
+        		<label for="respuesta1"><input id="respuesta1" type="radio" name="respuestas">Empresa</label>
+        		<label for="respuesta2"><input id="respuesta2" type="radio" name="respuestas">Persona Natural</label>
+				<br><br><br>
+
+				<label for="tipo">Tipo de proyecto</label>
+    			<select id="tipo" name="tipo">
+    			  <option value="logo">Diseño de Logo</option>
+    			  <option value="web">Diseño Web</option>
+    			  <option value="branding">Branding completo</option>
+    			  <option value="otro">Otro</option>
+    			</select>
+				<br><br><br>
+
+				<label for="mensaje">Detallanos q mas necesitas:</label><br><br>
+    			<textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos qué necesitas..."></textarea>
+				<br><br><br>
+
+    			<button type="submit">Enviar</button>
+
+			</form>
+
+		</div>
+
+
+	</section>
 </body>
 </html>
