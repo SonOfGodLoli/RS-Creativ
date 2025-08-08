@@ -76,6 +76,10 @@ header:has(li:hover) {
 	background-color: white;
 }
 
+.cabeza-hijo:has(li:hover) .logo {
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
 header:has(li:hover) li a {
 	color: #8b1813;
 }
