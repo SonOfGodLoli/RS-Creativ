@@ -39,6 +39,8 @@ header {
 	width: 6vw;
 	height: auto;
 	padding: 2vh;
+	overflow: hidden;
+	border-radius: 50%;
 }
 
 
@@ -74,10 +76,7 @@ a {
 /**/
 header:has(li:hover) {
 	background-color: white;
-}
-
-.cabeza-hijo:has(li:hover) .logo {
-	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+	border-bottom: #69100c 1px solid;
 }
 
 header:has(li:hover) li a {
@@ -88,6 +87,10 @@ li:hover {
 	transform: scale(1.2);
 	transition: transform 0.5s ease-in-out;
 	
+}
+
+.cabeza-hijo:has(li:hover) img.logo {
+	box-shadow: #69100c 0px 2px 10px;
 }
 
 /**/
