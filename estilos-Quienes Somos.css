@@ -95,6 +95,7 @@ li:hover {
 	font-family: montserrat;
 	align-items: center;
 	text-align: center;
+	width: 100%;
 }
 
 .q1{
@@ -277,23 +278,26 @@ li:hover {
 /*VALORES*/
 
 .val {
+	width: 100%;
+	height: auto;
 	background-color: #69100c;
 	color: white;
 	font-family: Montserrat;
 	text-align: center;
-	padding: 2vw;
+	padding:0;
 }
 
 .val h2 {
 	font-size: 3.5vw;
+	padding-top: 3vw;
 
 }
 
 .Imagenes {
 	display: flex;
 	align-items: center;
-	flex-wrap: wrap;
-	
+	justify-content: center;
+
 }
 
 .imgg {
