@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 body {
 	margin: 0;
 	padding-top: 0px;
@@ -98,19 +103,20 @@ header:has(li:hover) li a {
 
 .carrusel {
 	width: 100%;
+	
 }
 
 .carru {
-	width: 100%;
 	display: flex;
+	width: 100vw;
+	height: auto;
 	padding: 0%;
 	margin: 0%;
-    
-    animation: carouselAnim 30s infinite;
+    animation: carouselAnim 60s infinite;
 }
 
 .li1 {
-	width:100%;
+	width:100vw;
 	flex-shrink: 0;
 }
 
@@ -123,14 +129,27 @@ header:has(li:hover) li a {
 }
 
 @keyframes carouselAnim {
-    0% { transform: translateX(0); }
-    15% { transform: translateX(-100%); }
-    30% { transform: translateX(-200%); }
-	45% { transform: translateX(-300%); }
-	60% { transform: translateX(-200%); }
-    75% { transform: translateX(-100%); }
-    100% { transform: translateX(-0%); }
-    } 
+  0%   { transform: translateX(0); }   
+  10%  { transform: translateX(0); }     
+
+  15%  { transform: translateX(-100%); }     
+  25%  { transform: translateX(-100%); } 
+
+  30%  { transform: translateX(-200%); }     
+  40%  { transform: translateX(-200%); } 
+
+  45%  { transform: translateX(-300%); }     
+  55%  { transform: translateX(-300%); } 
+
+  60%  { transform: translateX(-200%); }  
+  70%  { transform: translateX(-200%); } 
+
+  75%  { transform: translateX(-100%); }  
+  85%  { transform: translateX(-100%); } 
+
+  90%  { transform: translateX(0); }      
+  100% { transform: translateX(0); }     
+}
 
 /* Cuerpo*/
 .panel1 {
