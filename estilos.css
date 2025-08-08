@@ -38,11 +38,14 @@ header {
 .cabeza-hijo img {
 	width: 6vw;
 	height: auto;
-	padding: 2vh;
+	/* padding: 2vh; */
 	overflow: hidden;
 	border-radius: 50%;
 }
 
+.cabeza-hijo a {
+	padding: 2vh;
+}
 
 ul {
 	display: flex;
