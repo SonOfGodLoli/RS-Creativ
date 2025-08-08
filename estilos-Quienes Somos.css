@@ -90,16 +90,17 @@ li:hover {
 
 /*quienes somos*/
 
-.quienes { 
-	font-size: 4vh;
+.quienes {
+	width: 100%;
+	height: auto;
+	font-size: 2vw;
 	font-family: montserrat;
 	align-items: center;
 	text-align: center;
-	width: 100%;
 }
 
 .q1{
-	font-size: 8vh;
+	font-size: 4vw;
 	padding: 0;
 	margin: 3vw;
 	color: #8b1813;
@@ -117,6 +118,14 @@ li:hover {
 
 .v1 {
 	display: flex;
+}
+
+.mision {
+	width: 50%;
+}
+
+.vision {
+	width: 50%;
 }
 
 .mision h3 {
@@ -175,24 +184,31 @@ li:hover {
 
 /* Fundacion */
 .Fundacion {
-	font-size: 4vh;
+	width: 100%;
+	height: auto;
+	font-size: 2.5vw;
 	font-family: montserrat;
 	align-items: center;
 	text-align: center;
 	background-color: #69100c;
 	color: white;
-	padding: 3vw 0;
 	margin-top: 2vw;
 }
 
 .Fundacion h4 {
 	font-size: 3vw;
+	padding: 2vw;
+}
+
+.Fundacion p {
+	padding: 0 3vw;
 }
 
 .Fundacion img {
 	width: 40vw;
 	height: auto;
 	border-radius: 2vw;
+	margin: 2vw 0 3vw 0;
 }
 .Fundacion img:hover {
 	box-shadow: 0 0 10px white;
@@ -214,7 +230,7 @@ li:hover {
 	justify-content: center;
 	width: 50%;
 	color: #69100c;
-	font-size: 5vh;
+	font-size: 3vw;
 }
 
 .foto1 img {
@@ -231,7 +247,7 @@ li:hover {
 	align-items: center;
 	justify-content: center;
 	color: #69100c;
-	font-size: 5vh;
+	font-size: 3vw;
 }
 
 .foto2 img {
@@ -248,7 +264,7 @@ li:hover {
 	align-items: center;
 	justify-content: center;
 	color: #69100c;
-	font-size: 5vh;
+	font-size: 3vw;
 }
 
 .foto3 img {
@@ -294,7 +310,10 @@ li:hover {
 }
 
 .Imagenes {
+	width: 100%;
+	height: auto;
 	display: flex;
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 
@@ -302,6 +321,8 @@ li:hover {
 
 .imgg {
 	padding: 2vw;
+	width: 100%;
+	height: auto;
 }
 
 .imgg h5 {
@@ -310,9 +331,10 @@ li:hover {
 
 .imgg p	{
 	text-align: center;
+	font-size: 1.5vw;
 }
 
 .imgg img {
-	width: 35vh;
+	width: 20vw;
 	height: auto;
 }
