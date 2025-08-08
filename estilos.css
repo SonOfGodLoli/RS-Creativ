@@ -8,8 +8,6 @@ body {
 
 header {
 	background-color: #b84c42;
-	border-bottom: 5px solid white;
-
 }
 
 /* @media (max-width: 768px) {
@@ -73,9 +71,19 @@ a {
 	font-size: 1.3vw;
 }
 
+/**/
+header:has(li:hover) {
+	background-color: white;
+}
+
+header:has(li:hover) li a {
+	color: #8b1813;
+}
+
 li:hover {
 	transform: scale(1.2);
 	transition: transform 0.5s ease-in-out;
+	
 }
 
 /**/
