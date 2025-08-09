@@ -86,3 +86,64 @@ li:hover {
 .cabeza-hijo:has(li:hover) img.logo {
 	box-shadow: #69100c 0px 2px 10px;
 }
+
+/**/
+
+.Impresion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente los hijos */
+    font-family: Montserrat, sans-serif;
+    background-color: #69100c;
+    padding: 2vw 1vw; /* agrega algo de padding */
+    box-sizing: border-box;
+    text-align: center; /* centra texto dentro */
+}
+
+.Impresion h2 {
+    font-size: 4vw;
+    color: white;
+    margin-bottom: 2vw;
+}
+
+.Gigantografias, .Viniles, .Foam {
+    width: 80%;
+    max-width: 900px;
+    margin-bottom: 3vw;
+}
+
+.Gigantografias h3, .Viniles h3, .Foam h3 {
+    font-size: 3vw;
+    color: #b84c42;
+    margin-bottom: 1vw;
+}
+
+.banner {
+    background-color: #b84c42;
+    padding: 1vw;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centra contenido dentro del banner */
+    justify-content: center;
+}
+
+.banner h4 {
+    font-size: 2.5vw;
+    color: white;
+    margin-bottom: 0.5vw;
+}
+
+.banner p {
+    color: white;
+    margin-bottom: 0.5vw;
+}
+
+.banner img {
+    width: 10vw;
+    height: auto;
+    border-radius: 4px;
+}
