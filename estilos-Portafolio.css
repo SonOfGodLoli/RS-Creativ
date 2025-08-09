@@ -8,8 +8,6 @@ body {
 
 header {
 	background-color: #b84c42;
-	border-bottom: 5px solid white;
-
 }
 
 /**/
@@ -87,4 +85,15 @@ li:hover {
 
 .cabeza-hijo:has(li:hover) img.logo {
 	box-shadow: #69100c 0px 2px 10px;
+}
+
+.imagen404 {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: auto;
+} 
+
+.imagen404 img{
+	width: 100%;
 }
