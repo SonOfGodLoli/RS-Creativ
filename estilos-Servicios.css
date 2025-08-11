@@ -3,18 +3,18 @@
 
 header {
 	background-color: #b84c42;
-	border-bottom: 5px solid white;
 }
 
 body {
 	margin: 0;
 	padding-top: 0px;
+	overflow-x: hidden;
 }
 /**/
 
 .Cabecera {
 	display:flex;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	align-items: center;
 	padding: 0px;
 	margin: 0;
@@ -96,9 +96,9 @@ li:hover {
     align-items: center; /* Centra horizontalmente los hijos */
     font-family: Montserrat, sans-serif;
     background-color: #69100c;
-    padding: 2vw 1vw; /* agrega algo de padding */
-    box-sizing: border-box;
-    text-align: center; /* centra texto dentro */
+    /* box-sizing: border-box; */
+    text-align: center; 
+	justify-content: center;
 }
 
 .Impresion h2 {
@@ -107,34 +107,40 @@ li:hover {
     margin-bottom: 2vw;
 }
 
-.Gigantografias, .Viniles, .Foam {
-    width: 80%;
-    max-width: 900px;
-    margin-bottom: 3vw;
+.Gigantografias {
+	display: flex;
+	flex-direction: column;
+    width: 100%;
+	background-color: white;
+	justify-content: center;
+}
+
+.Gigantografias2 {
+	display: flex;
+	justify-content:space-evenly;
+	
 }
 
 .Gigantografias h3, .Viniles h3, .Foam h3 {
     font-size: 3vw;
     color: #b84c42;
-    margin-bottom: 1vw;
 }
 
 .banner {
     background-color: #b84c42;
-    padding: 1vw;
-    border-radius: 5px;
-    width: 100%;
+    width: 40%;
     margin-bottom: 1.5vw;
     display: flex;
     flex-direction: column;
-    align-items: center; /* centra contenido dentro del banner */
+	align-items: center;
     justify-content: center;
+	border-radius: 1vw;
 }
 
 .banner h4 {
     font-size: 2.5vw;
     color: white;
-    margin-bottom: 0.5vw;
+	margin: 0;
 }
 
 .banner p {
