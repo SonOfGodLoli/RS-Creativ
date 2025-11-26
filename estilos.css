@@ -2,8 +2,8 @@
 /* CSS Document */
 
 html, body {
-  overflow-x: hidden;
-  width: 100%;
+	overflow-x: hidden;
+	width: 100%;
 }
 
 body {
@@ -38,17 +38,18 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
+	padding: 0 200px;
 }
 
 .cabeza-hijo .logo {
-	width: 4vw;
+	width: 60px;
 	height: auto;
 	/* padding: 2vh; */
 	border-radius: 50%;
 }
 
 .a1 {
-	padding: 1vw;
+	padding: 20px;
 }
 
 .ul1 {
@@ -65,17 +66,17 @@ li {
 	text-decoration: none;
 	margin: 0px;
 	padding: 0px;
-	font-size: 1.5vw;
+	font-size: 20px;
 	text-transform: uppercase;
 	font-family: Montserrat;
 	font-weight: bold;
 	display:inline-block;
 }
 
- .a2 {
+.a2 {
 	text-decoration: none;
 	color: #b84c42;
-	padding: 0px 2vw;
+	padding: 0px 25px;
 	/*font-size: 1.3vw; */
 }
 
@@ -99,15 +100,19 @@ header:has(li:hover) li a {
 } */
 
 /* carrusel */
+.padre_carrusel{
 
-.carrusel {
+	align-items: center;
+	justify-content: center;
+}
+
+.Carrusel{
 	width: 100%;
-	
 }
 
 .carru {
 	display: flex;
-	width: 100vw;
+	width: 70%;
 	height: auto;
 	padding: 0%;
 	margin: 0%;
@@ -115,39 +120,33 @@ header:has(li:hover) li a {
 }
 
 .li1 {
-	width:100vw;
+	/* width:70%;
+	height: auto; */
 	flex-shrink: 0;
 }
 
 .imgc {
-	width: 100vw;
+	width: 1000px;
 	height: auto;
-	display: block;
-	object-fit: cover;	
-
+	/* display: block;
+	object-fit: cover; */
 }
 
 @keyframes carouselAnim {
-  0%   { transform: translateX(0); }   
-  10%  { transform: translateX(0); }     
-
-  15%  { transform: translateX(-100%); }     
-  25%  { transform: translateX(-100%); } 
-
-  30%  { transform: translateX(-200%); }     
-  40%  { transform: translateX(-200%); } 
-
-  45%  { transform: translateX(-300%); }     
-  55%  { transform: translateX(-300%); } 
-
-  60%  { transform: translateX(-200%); }  
-  70%  { transform: translateX(-200%); } 
-
-  75%  { transform: translateX(-100%); }  
-  85%  { transform: translateX(-100%); } 
-
-  90%  { transform: translateX(0); }      
-  100% { transform: translateX(0); }     
+0%   { transform: translateX(0); }   
+10%  { transform: translateX(0); }    
+15%  { transform: translateX(-100%); }     
+25%  { transform: translateX(-100%); }
+30%  { transform: translateX(-200%); }     
+40%  { transform: translateX(-200%); }
+45%  { transform: translateX(-300%); }     
+55%  { transform: translateX(-300%); }
+60%  { transform: translateX(-200%); }  
+70%  { transform: translateX(-200%); }
+75%  { transform: translateX(-100%); }  
+85%  { transform: translateX(-100%); }
+90%  { transform: translateX(0); }      
+100% { transform: translateX(0); }     
 }
 
 /* Cuerpo*/
@@ -178,6 +177,7 @@ header:has(li:hover) li a {
 	font-display: swap;
 	padding: 0 20%;
 	font-size: 1.9vw;
+
 	text-align: justify;
 }
 
@@ -253,7 +253,7 @@ header:has(li:hover) li a {
 .D1 h3 {
 	text-align: center;
 	font-family: Montserrat;
-	font-size: 4vw;
+	font-size: 15px;
 }
 
 
@@ -282,7 +282,7 @@ header:has(li:hover) li a {
   /* Ajusta la imagen dentro de portafolio */
 
 .compu {
-	width: 40vw;
+	width: 400px;
 	height: auto;
 	margin: 2% 0%;
 }
